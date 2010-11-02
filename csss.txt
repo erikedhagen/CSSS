@@ -1,0 +1,18 @@
+# Slide Show (S9) Template Pack Manifest
+#
+# Change as desired/needed
+#
+# Questions? Comments?
+# Send them along to the Forum/Mailing List @ http://groups.google.com/group/webslideshow
+
+
+__file__.html   slideshow.html
+
+classList.js
+sample-slideshow.css
+slideshow.js
+license.txt
+slideshow.css
+theme.css
+
+img/rainbow-wood.jpg

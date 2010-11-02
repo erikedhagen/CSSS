@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="author" content="<%= @headers['author']%>" />
+    <title><%= @headers['title'] %></title>
+	<link href="slideshow.css" rel="stylesheet" type="text/css" />
+	<link href="theme.css" rel="stylesheet" type="text/css" />
+	<link href="sample-slideshow.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<header id="intro" class="slide">
+	<h1>
+        <%= @headers['title'] %>
+	</h1>
+    <p class="attribution">By <%= @headers['author'] %></p>
+</header>
+
+<% @slides.each do |slide| %>        
+<div class="slide">
+    <h2><%= slide.header %></h2>
+    <%= slide.content %>
+</div>
+<% end %>
+
+<script src="classList.js"></script>
+<script src="slideshow.js"></script>
+<script>
+var slideshow = new SlideShow(document.getElementById('presentation'));
+</script>
+	
+</body>
+</html>

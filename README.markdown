@@ -1,5 +1,4 @@
-# CSSS
-### CSS-based SlideShow System
+CSSS SlideShow System with S9 Support
 
-Warning: Only works in latest Firefox, Opera, Safari or Chrome.
-For more information, see the [sample slideshow](http://leaverou.me/csss/sample-slideshow.html) 
+CSSS: http://github.com/leaVerou/CSSS
+S9: http://github.com/geraldb/slideshow
