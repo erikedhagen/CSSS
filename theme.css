@@ -35,7 +35,7 @@ code, pre, style {
 	background:rgba(0,0,0,.4);
 }
 
-code {
+p code {
 	padding:.2em .2em .1em;
 	white-space: nowrap;
 	
@@ -89,10 +89,10 @@ strong, b {
 	text-shadow: .03em .03em .1em white;
 }
 
-	.slide h2 {
+	.slide h1 {
 		font-family: 'Helvetica Neue', Helvetica, sans-serif;
 		font-weight: 100;
-		font-size: 1.2in;
+		font-size: 1.1in;
 	}
 	
 	.slide p,
@@ -100,6 +100,10 @@ strong, b {
 		font-weight: bold;
 		letter-spacing: -.03em;
 	}
+
+	.slide p {
+	    margin-bottom: 0.5em;
+    }
 		
 	.slide > ul {
 		list-style:none;	
@@ -126,12 +130,14 @@ strong, b {
 			content:'\2714';
 			color: #a0c12c;
 			padding-right: .2em;
+			float: left;
 		}
 		
 			.slide li li:before {
 				content: '\279C';
 				color: #28bcbc;
 				padding-right: .2em;
+				float: left;
 			}
 
 .slide .emphasis {
